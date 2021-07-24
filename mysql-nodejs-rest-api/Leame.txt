@@ -1,0 +1,11 @@
+npm install  --- para instalar los modulos
+npm run dev
+-- Se debe instalar el modulo cors para que el Front acceda a Backend en Puerto diferentes
+npm install cors --save
+--Agregue las siguientes líneas a su server.js
+
+var cors = require('cors')
+
+app.use(cors()) // Use this after the variable declaration
+
+-- https://www.youtube.com/watch?v=p8CoR-wymQg&t=848s&ab_channel=Fazt
